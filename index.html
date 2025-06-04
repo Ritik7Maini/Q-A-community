@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A Community</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=160&id=dxoYK8bxqiJr&format=png">
+</head>
+<body>
+
+   <header>
+    <h1>Q&A Community</h1>
+    <!-- Username Display -->
+    <p id="usernameDisplay"></p>
+    <input type="text" id="searchBar" placeholder="Search questions..." />
+    <div id="searchSuggestions"></div>
+  </header>
+
+  <main>
+    <!-- Question Submission Form -->
+    <section id="question-form">
+      <h2>Ask a Question</h2>
+      <textarea id="questionInput" placeholder="Type your question here..."></textarea>
+      <button id="submitQuestion">Submit</button>
+    </section>
+
+    <!-- Recent Questions -->
+    <section id="question-list">
+      <h2>Recent Questions</h2>
+      <div id="questionsContainer"></div>
+    </section>
+
+    <!-- Community Discussion -->
+    <section id="discussion">
+      <h2>Community Discussion</h2>
+      <textarea id="discussionInput" placeholder="Write a comment..."></textarea>
+      <button id="submitDiscussion">Post</button>
+      <div id="discussionContainer"></div>
+    </section>
+  </main>
+
+  <!-- Floating Activity Feed -->
+  <div id="activityFeed"></div>
+
+  <!-- New Question Notification (appears once per question) -->
+  <div id="newQuestionNotification"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
