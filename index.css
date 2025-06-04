@@ -10,10 +10,11 @@ body {
 /* Header */
 header {
   background: linear-gradient(45deg, #0073e6, #00bcd4);
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 20px;
   text-align: center;
   position: relative;
+  border: 1px solid #000000;
 }
 
 #usernameDisplay {
